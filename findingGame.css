@@ -1,0 +1,65 @@
+body,html{
+    background-color:black;
+}
+h1:nth-child(1){
+    color:white;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+h1:nth-child(2){
+    color:white;
+    position:absolute;
+    top:280px;
+    left:820px;
+}
+h1:nth-child(3){
+    color:white;
+    position:absolute;
+    top:320px;
+    left:820px;
+}
+.container{
+    position:absolute;
+    top:400px;
+    left:400px;
+}
+.flex-container{
+    display:flex;
+    background-color:aliceblue;
+    height:200px;
+    flex-wrap:nowrap;
+    
+}
+.box{
+    background-color:rgb(17, 0, 112);
+    margin:15px;
+    height:160px;
+    width:160px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+
+}
+#box1:focus{
+    background: url("http://lorempixel.com/160/150/food/");
+}
+#box2:focus{
+    background: url("http://lorempixel.com/160/150/food/");
+}
+#box3:focus{
+    background: url("http://lorempixel.com/160/150/food/");
+}
+#box4:focus{
+    background: url("http://lorempixel.com/160/150/food/");
+}
+#box5:focus{
+    background: url("http://lorempixel.com/160/150/food/");
+}
+#box6:focus{
+    background: url("http://lorempixel.com/160/150/animals/1");
+    
+}
+
+
